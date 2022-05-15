@@ -24,3 +24,50 @@ p {line-height: 1.5em;}
     width: 48px;
     border: none;
 }
+
+   /* Navigation stuff */
+   .customNav {
+    position: fixed;
+    width: 100%;
+    background-color: #133955 !important;
+    z-index: 10;
+    }
+.navbar-nav {
+        margin-left: auto;
+        margin-right: 0 !important;
+        }
+.navbar-brand {
+font-family: 'Roboto Slab';
+font-size: 1.6em;
+}
+.navbar-brand img {
+            padding-right: 15px;
+            width: 65px;
+          }
+.navbar-light .navbar-toggler-icon{
+background-image: url('../images/menu.png');
+}
+.nav-item {
+            margin: 0px 2.4em;
+          }
+.nav-item img {
+height: 23px;
+width: auto;
+padding-right: .75em;}
+.dropdown-menu {
+background-color: #133955 !important;
+color: #f1f0e2 !important;
+align-items: center;
+}
+.dropdown-menu img {
+padding-right: .75em;
+height: 23px;
+width: auto;}
+.dropdown-item:focus, .dropdown-item:hover {
+color: #133955 !important;
+    text-decoration: none;
+    background: #fca289;
+          }
+.customNav a {
+color: #f1f0e2 !important;
+            }
