@@ -10,11 +10,26 @@
               background-image: url('images/diamondDeco2.png');
               background-attachment: fixed;
             }
+            .card {
+              width: 100%;
+              height: 430px;
+              background: url("images/homeCurrent.png") no-repeat;
+              /* For Safari 3.0+ */
+              -webkit-transition-property: background;
+              -webkit-transition-duration: 1s;
+              /* Standard syntax */
+              transition-property: background;
+              transition-duration: 300ms;
+              display: inline-block;
+            }
+            .card:hover {
+              background: url("images/homeUXUI.png") no-repeat;
+            }
         </style>
     </head>
     <body>
 <!--Navigation here-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
     <a class="navbar-brand" href="#"><img src="images/logoSmall.png">Spanish Moss Creative | USDOL</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,7 +82,39 @@
           </li>
        </ul>
     </div>
-  </nav>
+      </nav>
+      <section id="intro">
+        <div class="container">
+          <div class="row">
+            <div class="col-8 card"></div>
+            <div class="col-4">
+              <h3>U.S. Department of Labor</h3>
+              <p></p>
+            </div>
+          </div>
+         </div>
+      </section>
+      <section id="discover">
+         
+      </section>
+      <section id="define">
+        <div class="container">
+           
+        </div>
+      </section>
+      <section id="develop">
+        <div class="container">
+           
+        </div>
+      </section>
+      <section id="deliver">
+        <div class="container">
+           
+        </div>
+      </section>
+      <footer>
+
+      </footer>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
