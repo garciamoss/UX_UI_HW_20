@@ -74,8 +74,12 @@ color: #133955 !important;
 color: #f1f0e2 !important;
 }
 
-/* Intro stuff */
-
+/* Intro Section */
 #intro img:hover {
     background-image: url("images/homeUXUI.png");
+}
+
+/*Discovery Section*/
+img {
+    width: 100%;
 }
