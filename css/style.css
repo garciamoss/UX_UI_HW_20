@@ -12,7 +12,9 @@ body {
     width: 100%;
     margin: 10% auto;
     margin-bottom: 1%;}
-.container {margin: 0 auto;}
+.container {
+    margin: 0 8%;
+    padding: 10% 1%;}
 h1 {
     font-family: 'Roboto Slab'; 
         color: #33393b; 
@@ -69,12 +71,11 @@ color: #133955 !important;
     background: #fca289;
           }
 .customNav a {
-color: #f1f0e2 !important;}
+color: #f1f0e2 !important;
+}
 
 /* Intro stuff */
-#intro .container {
-    padding: 10% 1%;
-}
+
 #intro img:hover {
     background-image: url("images/homeUXUI.png");
 }
