@@ -7,6 +7,9 @@ body {
     font-family: 'Roboto'; 
     color: #33393b;
     background-color: #f1f0e2;}
+section {
+    margin: 0%;
+}
 .container-fluid {
     display: flex;
     width: 100%;
@@ -14,7 +17,7 @@ body {
     margin-bottom: 1%;}
 .container {
     margin: 0 8%;
-    padding: 10% 1%;}
+    padding: 8% 1%;}
 h1 {
     font-family: 'Roboto Slab'; 
         color: #33393b; 
