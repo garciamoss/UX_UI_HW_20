@@ -13,16 +13,17 @@ body {
     margin: 10% auto;
     margin-bottom: 1%;}
 .container {
+    display: block;
     width:100%
     margin: 0 8%;
     padding: 8% 1%;
 }
 h1 {
     font-family: 'Roboto Slab'; 
-        color: #33393b; 
-        font-size: 48px; 
-        font-weight: 400; 
-        margin-bottom: 1%;} 
+    color: #33393b; 
+    font-size: 48px; 
+    font-weight: 400; 
+    margin-bottom: 1%;} 
 p {line-height: 1.5em;}
 .icon {
     width: 48px;
@@ -84,4 +85,26 @@ color: #f1f0e2 !important;
 /*Discovery Section*/
 img {
     width: 100%;
+}
+#heuristics {
+    margin-bottom: 2%;
+}
+#interviews img {
+    padding: 15% 0;
+}
+#interviews h5 {
+    text-align: center;
+    color: #f1f0e2;
+}
+.phillip {
+    background-color: #004A79;
+}
+.jada {
+    background-color: #872000;
+}
+.ellenSue {
+    background-color: #D3481B;
+}
+.taki {
+    background-color: #4996D7;
 }
