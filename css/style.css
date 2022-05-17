@@ -14,8 +14,8 @@ body {
     margin-bottom: 1%;}
 .container {
     display: block;
-    width:100%
-    margin: 0 8%;
+    width:100%;
+    margin: 0 auto;
     padding: 8% 1%;
 }
 h1 {
@@ -78,6 +78,9 @@ color: #f1f0e2 !important;
 }
 
 /* Intro Section */
+#intro {
+    margin-bottom: 0px;
+}
 #intro img:hover {
     background-image: url("images/homeUXUI.png");
 }
