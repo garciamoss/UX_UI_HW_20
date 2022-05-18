@@ -93,21 +93,9 @@ img {
     margin-bottom: 2%;
 }
 #interviews img {
-    padding: 15% 0;
+    padding: 10% 0;
 }
 #interviews h5 {
     text-align: center;
-    color: #f1f0e2;
-}
-.phillip {
-    background-color: #004A79;
-}
-.jada {
-    background-color: #872000;
-}
-.ellenSue {
-    background-color: #D3481B;
-}
-.taki {
-    background-color: #4996D7;
+    color: #33393b;
 }
