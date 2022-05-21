@@ -90,9 +90,6 @@ color: #f1f0e2 !important;
 #intro h1 {
     padding: 0px;
 }
-#intro .col-4 {
-    padding-left: 2%;
-}
 #intro .icon {
     padding-bottom: 7%;
 }
@@ -101,14 +98,7 @@ color: #f1f0e2 !important;
     font-size: .875rem;
     line-height: normal;
 }
-.usdol {
-    background-color: #888;
-    color: #f1f0e2;
-    padding: 2%;
-}
-.logo {
-    padding-bottom: 10%;
-}
+
 
 
 /*Discover Section*/
