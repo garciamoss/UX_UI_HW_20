@@ -7,17 +7,13 @@ body {
     font-family: 'Roboto';
     font-size: 1rem;
     color: #33393b;
-    background-color: #f1f0e2;}
-.container-fluid {
-    display: flex;
-    width: 100%;
-    margin: 10% auto;
-    margin-bottom: 1%;}
+    background-color: #f1f0e2;
+}
+
 .container {
-    display: block;
     width: 100%;
     margin: 0 auto;
-    padding: 4.6% 0px;
+    padding-top: 4.6%;
 }
 h1 {
     font-family: 'Roboto Slab'; 
@@ -37,7 +33,6 @@ p {line-height: 1.5rem;}
     border: none;
 }
 
-
    /* Navigation stuff */
    .customNav {
     position: fixed;
@@ -45,10 +40,7 @@ p {line-height: 1.5rem;}
     background-color: #133955 !important;
     z-index: 10;
     }
-.navbar-nav {
-    margin-left: auto;
-    margin-right: 0 !important;
-    }
+
 .navbar-brand {
 font-family: 'Roboto Slab';
 font-size: 1.6em;
@@ -61,7 +53,7 @@ font-size: 1.6em;
 background-image: url('../images/menu.png');
 }
 .nav-item {
-    margin: 0px 2.4em;
+    margin: 0px 2em;
 }
 .nav-item img {
 height: 23px;
