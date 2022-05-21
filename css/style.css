@@ -36,7 +36,9 @@ p {line-height: 1.5rem;}
     width: 48px;
     border: none;
 }
-
+section {
+    border-bottom: 1px #33393b solid;
+}
 
    /* Navigation stuff */
    .customNav {
@@ -101,11 +103,16 @@ color: #f1f0e2 !important;
 #intro .col-4 {
     padding-left: 0;
 }
-
-/*Discovery Section*/
+#intro .col-3 {
+    text-align: center;
+    font-size: .875rem;
+}
+/*Discover Section*/
+#discover {
+    border-bottom: 0px transparent;
+}
 img {
     width: 100%;
-    
 }
 #heuristics {
     margin-bottom: 2%;
