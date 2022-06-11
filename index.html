@@ -1,3 +1,4 @@
+@@ -1,263 +1,383 @@
 <!DOCTYPE html> 
 <html>
     <head>
@@ -29,14 +30,46 @@
         </style>
     </head>
     <body>
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!--Additional links-->
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+<!--Overview styling-->
+    <style>
+      body {
+        background-image: url('images/diamondDeco2.png');
+        background-attachment: fixed;
+      }
+
+    </style>
+
+    <title>UX_UI_HW_20</title>
+  </head>
+  <body>
 <!--Navigation here-->
       <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
         <a class="navbar-brand" href="https://garciamoss.github.io/UX_UI_HW_19/"><img src="images/logoSmall.png">Spanish Moss Creative | <small>USDOL</small></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse"     data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
+      <a class="navbar-brand" href="https://garciamoss.github.io/UX_UI_HW_19/"><img src="images/logoSmall.png" alt="Spanish Moss Creative Logo">SpanishMoss Creative | <small>USDOL</small></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
           <a class="nav-link" href="#"><img src="images/Info.png" class="icon">Intro<span class="sr-only">(current)</span></a>
@@ -70,18 +103,63 @@
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="https://www.linkedin.com/in/lisagarciamoss/" target="_blank"><img src="images/linkedin-circled.png" class="icon">Iterations</a>
             </div>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Intro <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#discover">Discover</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#define">Define</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#develop">Develop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#deliver">Deliver</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/deliver.png" class="icon">Deliver</a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Let's Collaborate
+            </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="tel:14044328002"><img src="images/iphone-x.png" class="icon">Style Guide</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#"><img src="images/prtotype.png" class="icon" target="_blank">Prototypes</a>
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="https://www.linkedin.com/in/lisagarciamoss/" target="_blank"><img src="images/linkedin-circled.png" class="icon">Epilogue</a>
+              <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
         </ul>
+      </div>
+    </nav>
+<!--Jumbo here-->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Responsive Design: <br><small>U.S. Department of Labor</small></h1>
+        <p class="lead"></p>
+        <div class="row">
+          <div class="col-3">
+            <img src="images/CalendarW.png" class="icon">
+            <p><b>5 weeks</b></p>
+          </div>
+          <div class="col-3">
+            <img src="images/DesignW.png" class="icon">
+            <p><b>Miro<br>InVision<br>Figma</b></p>
+          </div>
+          <div class="col-3">
+            <img src="images/WomanComputerW.png" class="icon">
+            <p><b>UX Researcher<br>UX/UI Designer<br>Brand Designer</b></p>
+          </div>
+          <div class="col-3">
+            <img src="images/FolderW.png" class="icon">
+            <p><b>Wireframes<br>Prototypes<br>Style Guide</b>
+            </p>
+          </div>
         </div>
       </nav>
 <!--Hero section here. Using col system-->
@@ -91,6 +169,15 @@
             <!--Here's where the image change occurs-->
             <h1>Responsive Design: <small>U.S. Department of Labor</small></h1>
             <div class="col-12 card"></div>
+      </div>
+    </div>
+<!--Intro here-->
+    <section id="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 overview">
+            <h4>Overview</h4>
+            <p>Students were placed into several groups charged with redesigning a website from a list of federal government agencies; my group chose the Department of Labor. During the five weeks given to complete the assignment, students learned and applied UI fundamentals and best practices such as usability & accessibility heuristics, UI systems &  navigation, and UI & A/B Testings. Deliverables included documentation of various UI research methods during the assignment’s discovery phase, a style guide ensuring consistency of various branding components, high-fidelity clickable mobile and desktop prototypes (and iterations).</p>
           </div>
           <div class="row">
             <div class="col-6">
@@ -127,11 +214,28 @@
                   <p>Students were placed into several groups charged with redesigning a website from a list of federal government agencies; my group chose the Department of Labor. During the five weeks given to complete the assignment, students learned and applied UI fundamentals and best practices such as usability & accessibility heuristics, UI systems &  navigation, and UI & A/B Testings. Deliverables included documentation of various UI research methods during the assignment’s discovery phase, a style guide ensuring consistency of various branding components, high-fidelity clickable mobile and desktop prototypes (and iterations).</p>
                 </div>
                 
+          <div class="col-lg-6 aboutDOL">
+            <div class="row">
+              <div class="col-9">
+                <h4>About DOL</h4>
+                <p>The United States Department of Labor is one of the executive departments of the U.S. federal government. Its mission is <i>to foster, promote, and develop the welfare of the wage earners, job seekers, and retirees of the United States; improve working conditions; advance opportunities for profitable employment; and assure work-related benefits and rights</i>. It is headed by the Secretary of Labor, who reports directly to the President and is a member of the president's Cabinet.</p>
               </div>
             </div>
           </div>  
+              <div class="col-3">
+                <img src="images/logoUSDOL.png">
+                <p><small><b>Formed:</b> 1913<br>
+                <b>Website:</b>  www.dol.gov</small>
+              </p>
+              </div>
+          </div>
+          </div>
         </div>
       </section>
+      </div>
+    </section>
+<hr>
+
 <!--Discover Section here-->
       <section id="discover">
         <div class="container">
@@ -148,6 +252,12 @@
               </p>
                 <a href="#hide" class="btn btn-info" data-toggle="collapse"></a>
             </div>
+    <section id="discover">
+      <div class="container">
+        <h1>Discover</h1>
+        <div class="row heuristics1">
+          <div class="col-lg-8">
+            <img src="images/heuristics1.png">
           </div>
           <!--This row shall be hidden until click-->
           <div id="hide" class="row">
@@ -159,12 +269,32 @@
                 <b>Usability Issues:</b> Students were placed into several groups charged with redesigning a website from a   list of federal government agencies; my group chose the Department of Labor. During the five weeks given to complete the assignment, students learned and applied UI fundamentals and best practices such as usability & accessibility heuristics, UI systems &  navigation, and UI & A/B testings. Deliverables included documentation of various UI research methods during the assignment’s discovery phase, a style guide ensuring consistency of various branding components, high-fidelity clickable mobile and desktop prototypes (plus iterations). <br><br>
               </p>
             </div>
+          <div class="col-lg-4">
+            <h4>Heuristic Evaluations</h4>
+            <p>
+              The scope of the navigation annotation is limited just to the Home page and the primary level of subordinate pages. Areas outlined in red annotate the challenges often encountered by visitors to the DOL website. The extent of these problems correlates with the size of the site itself.
+            </p>
+              <a href="#hide" class="btn btn-info" data-toggle="collapse">Show less heuristics</a>
           </div>
+        </div>
+        <!--This row shall be hidden until click-->
+        <div id="hide" class="row heuristics2">
+          <div class="col-lg-8">
+            <img src="images/heuristics2.png">
           </div>
           <div id="interviews">
           <div class="row">
           <div class="col-4">
             <h3>Interviews</h3>
+          <div class="col-lg-4">
+            <p>
+              <b>Usability Issues:</b> Students were placed into several groups charged with redesigning a website from a   list of federal government agencies; my group chose the Department of Labor. During the five weeks given to complete the assignment, students learned and applied UI fundamentals and best practices such as usability & accessibility heuristics, UI systems &  navigation, and UI & A/B testings. Deliverables included documentation of various UI research methods during the assignment’s discovery phase, a style guide ensuring consistency of various branding components, high-fidelity clickable mobile and desktop prototypes (plus iterations). <br><br>
+            </p>
+          </div>
+        </div>
+        <div class="row usabilityTests">
+          <div class="col-lg-4">
+            <h4>Usability Tests</h4>
              <p>
                <b>Usability Issues:</b> Students were placed into several groups charged with redesigning a website from a   list of federal government agencies; my group chose the Department of Labor. During the five weeks given to complete the assignment, students learned and applied UI fundamentals and best practices such as usability & accessibility heuristics, UI systems &  navigation, and UI & A/B testings. Deliverables included documentation of various UI research methods during the assignment’s discovery phase, a style guide ensuring consistency of various branding components, high-fidelity clickable mobile and desktop prototypes (plus iterations). <br><br>
              </p>
@@ -174,39 +304,153 @@
               <div class="col-6 phillip">
                 <img src="images/phillipIcon.png">
                 <h5>Phillip</h5>
+          <div class="col-6 col-lg-4">
+            <div class="card-group">
+              <div class="card phillip">
+                <img class="card-img-top" src="images/phillipIcon.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Phillip</h5>
+                  <p class="card-text"></p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
               </div>
               <div class="col-6 jada">
                 <img src="images/jadaIcon.png">
                 <h5>Jada</h5>
+              <div class="card ellenSue">
+                <img class="card-img-top" src="images/ellenSue.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Ellen-Sue</h5>
+                  <p class="card-text"></p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
               </div>
             </div>
             <div class="row">
               <div class="col-6 ellenSue">
                 <img src="images/ellenSue.png">
                 <h5>Ellen-Sue</h5>
+          </div>
+          <div class="col-6 col-lg-4">
+            <div class="card-group">
+              <div class="card jada">
+                <img class="card-img-top" src="images/jadaIcon.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Jada</h5>
+                  <p class="card-text"></p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
               </div>
               <div class="col-6 taki">
                 <img src="images/takiIcon.png">
                 <h5>Taki</h5>
+              <div class="card taki">
+                <img class="card-img-top" src="images/takiIcon.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Taki</h5>
+                  <p class="card-text"></p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
               </div>
             </div>
           </div>
           <div class="col-4">
             <h3>Interviews</h3>
+        </div>
+        <div class="row affinity">
+          <div class="col-lg-6">
+            <img src="images/stckyNotes1.png">
+            <img src="images/stckyNotes2.png">
+          </div>
+          <div class="col-lg-6">
+            <h3>Affinity Map</h3>
              <p>
                <b>Usability Issues:</b> Students were placed into several groups charged with redesigning a website from a   list of federal government agencies; my group chose the Department of Labor. During the five weeks given to complete the assignment, students learned and applied UI fundamentals and best practices such as usability & accessibility heuristics, UI systems &  navigation, and UI & A/B testings. Deliverables included documentation of various UI research methods during the assignment’s discovery phase, a style guide ensuring consistency of various branding components, high-fidelity clickable mobile and desktop prototypes (plus iterations). <br><br>
              </p>
           </div>
-          </div>
-         </div>
+        </div>
+      </div>
+    </section>
+<hr>
+
+<!--Define Section here. May use jumbotron for statement-->
+    <section id="define">
+      <div class="container">
+        <h1>Define</h1>
+        <div class="jumbotron definition">
+          <div class="container">
+            <h1 class="display-4"><b>Problem Statement:</b></h1>
+            <p class="lead">Sha-na-na-na, sha-na-na-na-na, ahh-do
+              Sha-na-na-na, sha-na-na-na-na, ahh-do
+              Sha-na-na-na, sha-na-na-na-na, ahh-do
+              Sha-na-na-na, sha-na-na-na-na
+              Ahh, yip-yip-yip-yip-yip-yip-yip-yip
+              Mum-mum-mum-mum-mum-mum
+            <b></b>GET A JOB</p>
           </div>
         </div>
+        <div class="row userFlow">
+          <div class="col-lg-5">
+            <div>
+              <img src="images/persona.png">
+            </div>
+            <div>
+              <h4>Persona and User Flow</h4>
+              <p><b>Usability Issues:</b> Students were placed into several groups charged with redesigning a website from a   list of federal government agencies; my group chose the Department of Labor. During the five weeks given to complete the assignment, students learned and applied UI fundamentals and best practices such as usability & accessibility heuristics, UI systems &  navigation, and UI & A/B testings. Deliverables included documentation of various UI research methods during the assignment’s discovery phase, a style guide ensuring consistency of various branding components, high-fidelity clickable mobile and desktop prototypes (plus iterations). <br><br>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <img src="images/userFlow.png">
+          </div>
+         </div>
+        </div>
+        <div class="row styleTile">
+          <div class="col-lg-3">
+            <img src="images/logoUSDOL.png">
+            <p><b>Usability Issues:</b> Students were placed into several groups charged with redesigning a website from a   list of federal government agencies; my group chose the Department of Labor. During the five weeks given to complete the assignment, students learned and applied UI fundamentals and best practices such as usability & accessibility heuristics, UI systems &  navigation, and UI & A/B testings. 
+            </p>
+          </div>
+          <div class="col-lg-9">
+            <img src="images/StyleTile.png">
+          </div>
+        </div>
+        <div class="row cardSort">
+            <div class="col-lg-4">
+              <h4>Card Sort and Site Maps</h4>
+              <p><b>Usability Issues:</b> Students were placed into several groups charged with redesigning a website from a   list of federal government agencies; my group chose the Department of Labor. During the five weeks given to complete the assignment, students learned and applied UI fundamentals and best practices such as usability & accessibility heuristics, UI systems &  navigation, and UI & A/B testings. 
+              </p>
+            </div>
+            <div class="col-lg-4">
+              <img src="images/OptimalSort.png">
+            </div>
+            <div class="col-lg-4">
+              <img src="images/CurrentSiteMap.png">
+            </div>
+        </div>
+        <div class="row siteMap">
+          <div class="col-lg-12">
+          <img src="images/NewSynthesizedSiteMap.png">
+        </div>
+        </div>
+    </div>
+    </section>
+<hr>
 
       </section>
 <!--Define Section here. May use jumbotron for statement-->
       <section id="define">
         <div class="container">
           <h2>Define</h2>
+<!--Develop Section here-->
+  <section id="develop">
+    <div class="container">
+      <h1>Develop</h1>
+      <div class="row wireframes">
+        <div class="col-lg-5">          
+          <h3>Iterating wireframes and prototypes</h3>
+          <p><b>Usability Issues:</b> Students were placed into several groups charged with redesigning a website from a   list of federal government agencies; my group chose the Department of Labor. During the five weeks given to complete the assignment, students learned and applied UI fundamentals and best practices such as usability & accessibility heuristics, UI systems &  navigation, and UI & A/B testings. Deliverables included documentation of various UI research methods during the assignment’s discovery phase, a style guide ensuring consistency of various branding components, high-fidelity clickable mobile and desktop prototypes (plus iterations). <br><br>
+          </p>
           <div class="row">
             <div class="col-4">
               <h3>Interviews</h3>
@@ -232,6 +476,8 @@
             <h2>Interviews</h2>
              <p>
                <b>Usability Issues:</b> Students were placed into several groups charged with redesigning a website from a   list of federal government agencies; my group chose the Department of Labor. During the five weeks given to complete the assignment, students learned and applied UI fundamentals and best practices such as usability & accessibility heuristics, UI systems &  navigation, and UI & A/B testings. Deliverables included documentation of various UI research methods during the assignment’s discovery phase, a style guide ensuring consistency of various branding components, high-fidelity clickable mobile and desktop prototypes (plus iterations). <br><br>
+            <div class="col-lg-6">          
+              <p><b>Usability Issues:</b> Students were placed into several groups charged with redesigning a website from a   list of federal government agencies; my group chose the Department of Labor.
              </p>
            </div>
 
@@ -240,12 +486,43 @@
       <section id="develop">
         <div class="container">
           <h2>Develop</h2>
+           <div class="col-lg-6">
+             <img src="images/mobileHomePages.png">
+           </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <img src="images/homePageWireframes.png">
         </div>
       </section>
+        
+      </div>
+      <div class="row mobileAtomic">
+        <div class="col-lg-5">
+          <p><b>Usability Issues:</b> Students were placed into several groups charged with redesigning a website from a   list of federal government agencies; my group chose the Department of Labor. During the five weeks given to complete the assignment, students learned and applied UI fundamentals and best practices such as usability & accessibility heuristics, UI systems &  navigation, and UI & A/B testings. Deliverables included documentation of various UI research methods during the assignment’s discovery phase, a style guide ensuring consistency of various branding components, high-fidelity clickable mobile and desktop prototypes (plus iterations). <br><br>
+          </p>
+        </div>
+        <div class="col-lg-7">
+          <img src="images/mobileAtomicDesign.png">
+        </div>
+      </div>
+      <div class="row desktopAtomic">
+        <div class="col-lg-12"><img src="images/desktopAtomicDesign.png"></div>
+      </div>
+    </div>
+  </section>
+<hr> 
+
 <!--Deliver Section here-->
       <section id="deliver">
         <div class="container">
           <h2>Deliver</h2>
+  <section id="deliver">
+    <div class="container">
+      <h1>Deliver</h1>
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Style Guide</h3>
         </div>
       </section>
 <!--Footer material, such as contact info and social media links-->
@@ -254,10 +531,68 @@
     </footer>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <div class="col-lg-3 typo">
+          <h4>Typography</h4>
+        </div>
+        <div class="col">
+        <h4>Photography</h4>
+        </div>
+        <div class="col-lg-3">
+        <h4>Iconography</h4>
+        </div>
+      </div>
+      <div class="row palettes">
+        <div class="col"><h4>Tonal Palette</h4></div>
+        <div class="col-lg-12"><img src="images/tonalPalettes.png"></div>
+      </div>
+      <div class="row hifiPros">
+        <div class="col-lg-12">
+          <h4>High Fidelity Prototypes</h4>
+        </div>
+        <div class="col-lg-8"> 
+        <img src="images/USDOL.png">
+        </div>
+        <div class="col-lg-4">
+          <img src="images/protypesDOL.png">
+          <h5>Desktop and Mobile</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+          </p>
+        </div>
+        <div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Epilogue-->
+<section id="epilogue">
+  <div class="container">
+    <h1>Epilogue</h1>
+    <div class="row">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</section>
+
+
+<!--Footer and social media links-->
+    <nav class="navbar fixed-bottom navbar-light bg-light customNav">
+      <a class="navbar-brand" href="#">Copyright 2022. Lisa Garcia Moss.</a>
+    </nav>
+
+
+  </body>
+  <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
+</html>
 </html>
