@@ -7,6 +7,8 @@ h2 {font-family: 'Roboto Slab'; color: #33393b; font-size: 2.5rem;}
 p {line-height: 1.5rem;}
 .icon {width: 48px; border: none;}
 img {padding-bottom: 1rem; width: 100%;}
+button {background-color: #133955 !important; color: #f1f0e2;}
+button:hover {color: #fca289;}
 
 
    /* Navigation stuff */
