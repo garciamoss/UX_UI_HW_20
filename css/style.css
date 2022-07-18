@@ -5,6 +5,7 @@ body {margin: 0 auto; width: 100%; font-family: 'Roboto'; font-size: 1rem; color
 h1 {font-family: 'Roboto Slab'; color: #33393b; font-size: 3rem; font-weight: 400; margin-bottom: 6%;padding-top: 3%;} 
 h2 {font-family: 'Roboto Slab'; color: #33393b; font-size: 2.5rem;}
 a {text-decoration: none !important;}
+hr {width: 80%; border-top: 5px dotted #ccb38d !important;}
 p {line-height: 1.5rem;}
 .icon {width: 48px; border: none;}
 img {padding-bottom: 1rem; width: 100%;}
@@ -59,7 +60,8 @@ img {padding-bottom: 1rem; width: 100%;}
     /*Extra small devices (portrait phones, less than 576px)*/
     @media (max-width: 575.98px) {
         h1 {font-size: 2.5rem !important;}
-        .display-4 {margin-top: 25%;
+        .display-4 {margin-top: 25%;}
+        hr {width: 95%;}
     }
     
         /*Small devices (landscape phones, 576px and up*/
