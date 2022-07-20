@@ -5,6 +5,9 @@ body {margin: 0 auto; width: 100%; font-family: 'Roboto'; font-size: 1rem; color
 h1 {font-family: 'Roboto Slab'; color: #33393b; font-size: 3rem; font-weight: 400; margin-bottom: 6%;padding-top: 3%;} 
 h2 {font-family: 'Roboto Slab'; color: #33393b; font-size: 2.5rem;}
 a {text-decoration: none !important;}
+a {text-decoration: none;}
+a:hover {text-decoration: none; color: #133955 !important;}
+a:visited {color: #888;}
 hr {width: 80%; border-top: 5px dotted #ccb38d !important;}
 p {line-height: 1.5rem;}
 img {padding-bottom: 1rem; width: 100%;}
@@ -19,8 +22,8 @@ img {padding-bottom: 1rem; width: 100%;}
 .navbar-light .navbar-toggler-icon{ background-image: url('../images/menu.png');}
 .navbar-toggler:hover {background-color: #fca289;}
 .nav-item {margin: 0px 2em;}
-.nav-item img {width: auto; padding-right: .75em;}
-.icon {width: auto; padding-right: 2em;}
+.nav-item img {width: auto; padding-right: .5em;}
+.icon {width: 48px;border: none;}
 .dropdown-menu { background-color: #133955 !important; color: #f1f0e2 !important; align-items: center;}
 .dropdown-menu img {padding-right: .75em; height: 23px; width: auto;}
 .dropdown-item:focus, .dropdown-item:hover {color: #133955 !important; text-decoration: none; background: #fca289;}
@@ -47,6 +50,9 @@ img {padding-bottom: 1rem; width: 100%;}
 #define .display-4 {margin-top: 3%; padding-top: 0%;}
 .definition {background-image: url("../images/confusedNAV.png") !important; background-size: cover !important; min-height: 500px; background-position: center; text-align: center; color: #f1f0e2;}
 .definition .container {border: 1px solid #f1f0e2 !important; border-radius: 2%; max-width: 75%; line-height: 1.5rem !important;}
+
+/*Deliver Section*/
+.iconography .row {padding-bottom: 5.5%;}
 
 /*Epilgue Section*/
 #epilogue {padding-bottom: 20%;}
