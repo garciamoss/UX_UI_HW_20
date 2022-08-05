@@ -8,8 +8,6 @@ a {text-decoration: none !important;}
 a {text-decoration: none;}
 a:hover {text-decoration: none; color: #133955 !important;}
 a:visited {color: #888;}
-button {background-color: #133955; border: 1px none #133955; border-radius: 8px; padding: .5rem; font-family: 'Roboto Slab'; font-weight: 500;
-    font-size: small; color: #fff; letter-spacing: .0625em;}
 hr {width: 80%; border-top: 5px dotted #ccb38d !important;}
 p {line-height: 1.5rem;}
 img {margin-bottom: 1rem; width: 100%;}
@@ -44,7 +42,7 @@ iframe {margin-bottom: .55rem; width: 100%;}
 
 /*Discover Section*/
 .methodology h4 {letter-spacing: -.025rem !important;}
-.heuristics button {margin: 1rem 0 !important;}
+.heuristics button {background-color: #133955; border: 1px none #133955; border-radius: 8px; padding: .5rem; font-family: 'Roboto Slab'; font-weight: 500; font-size: small; color: #fff; letter-spacing: .0625em;margin: 1rem 0 !important;}
 .card-img-top {padding: 5%;}
 .text-muted {color: #f1f0e2 !important;}
 .phillip, .taki {background-color: #555; color: #f1f0e2; text-align: center;}
