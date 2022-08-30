@@ -41,12 +41,12 @@ iframe {margin-bottom: .55rem; width: 100%;}
 
 
 /*Discover Section*/
-.heuristics button {background-color: #133955; border: 1px none #133955; border-radius: 8px; padding: .5rem; font-family: 'Roboto Slab'; font-weight: 500; font-size: small; color: #fff; letter-spacing: .0625em;margin: 1rem 0 !important;}
 .card-img-top {padding: 5%;}
+.card-title {margin-top: -10%;}
 .text-muted {color: #f1f0e2 !important;}
 .phillip, .taki {background-color: #555; color: #f1f0e2; text-align: center;}
 .ellenSue, .jada {background-color: #888888; color: #f1f0e2; text-align: center;}
-#discover .row {margin-bottom: 8%;}
+#discover .row {margin-bottom: 6%;}
 
 
 /*Define Section*/
