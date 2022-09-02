@@ -47,7 +47,7 @@ iframe {margin-bottom: .55rem; width: 100%;}
 .phillip, .taki {background-color: #555; color: #f1f0e2; text-align: center;}
 .ellenSue, .jada {background-color: #888888; color: #f1f0e2; text-align: center;}
 #discover .row {margin-bottom: 6%;}
-
+.row .card-group {margin-bottom: -3.4%;}
 
 /*Define Section*/
 #define .display-4 {margin-top: 3%; padding-top: 0%;}
@@ -73,16 +73,20 @@ iframe {margin-bottom: .55rem; width: 100%;}
         hr {width: 95%;}
         .giphy-embed {width: 440px !important; height: 220px !important;}
         .noIcons {display: none !important;}
+        .jtbd {margin-bottom: 5% !important;}
+        .card-body {min-height: 235px !important;}
     }
     
         /*Small devices (landscape phones, 576px and up*/
     @media (min-width: 576px) and (max-width: 767.98px) {
         .noIcons {display: none !important;}
+        .jtbd {margin-bottom: 5% !important;}
     }
     
         /*Medium devices (tablets, 768px and up)*/
     @media (min-width: 768px) and (max-width: 991.98px) {
         .noIcons {display: none !important;}
+        .jtbd {margin-bottom: 5% !important;}
     }
     
         /*Large devices (desktops, 992px and up)*/
