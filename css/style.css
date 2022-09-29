@@ -31,8 +31,7 @@ iframe {margin-bottom: .55rem; width: 100%;}
 .customNav a {color: #f1f0e2 !important;}
 
 /*Jumbotron*/
-.jumbotron-fluid {padding-top: 5rem; background-image: url("../images/homeCurrent.png")!important; background-size: cover !important; background-position: center !important; text-align: center; color: #f1f0e2; height: 900px;}
-.jumbotron-fluid:hover {background: url("../images/homeUXUI.png") !important; background-size: cover !important; background-position: center !important;}
+.jumbotron-fluid {padding-top: 5rem; background-image: url("../images/homeUXUI.png")!important; background-size: cover !important; background-position: center !important; text-align: center; color: #f1f0e2; height: 800px;}
 .display-4 {color: #f1f0e2; margin-top: 10%; margin-bottom: 1%; padding-top: 0px;}
 .jumbotron .row {padding-top: 2rem;}
 .jumbotron .col-3 {text-align: center; font-size: .875rem; font-weight: lighter; line-height: normal;}
