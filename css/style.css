@@ -41,6 +41,8 @@ iframe {margin-bottom: .55rem; width: 100%;}
 
 
 /*Discover Section*/
+.methodology img{border: #33393b solid 1px;}
+.heuristics2 img {margin-bottom: 4.8% !important;}
 .card-img-top {padding: 5%;}
 .card-title {margin-top: -10%;}
 .text-muted {color: #f1f0e2 !important;}
@@ -74,7 +76,6 @@ iframe {margin-bottom: .55rem; width: 100%;}
         .giphy-embed {width: 440px !important; height: 220px !important;}
         .noIcons {display: none !important;}
         .jtbd {margin-bottom: 5% !important;}
-        .card-body {min-height: 235px !important;}
     }
     
         /*Small devices (landscape phones, 576px and up*/
