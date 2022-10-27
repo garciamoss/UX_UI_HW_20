@@ -39,6 +39,8 @@ iframe {margin-bottom: .55rem; width: 100%;}
 /* Intro Section */
 .failures {margin-top: 3%;}
 
+/*Challenge section/
+
 
 /*Discover Section*/
 .methodology img{border: #33393b solid 1px;}
@@ -53,7 +55,7 @@ iframe {margin-bottom: .55rem; width: 100%;}
 
 /*Define Section*/
 #define .display-4 {margin-top: 3%; padding-top: 0%;}
-.definition {background-image: url("../images/confusion.jpeg") !important; background-size: cover !important; min-height: 500px; background-position: center; text-align: center; color: #f1f0e2;}
+.definition {background-image: url("../images/detour.png") !important; background-size: cover !important; min-height: 500px; background-position: center; text-align: center; color: #f1f0e2;}
 .definition .container {border: 1px solid #f1f0e2 !important; border-radius: 2%; max-width: 75%; line-height: 1.5rem !important;}
 
 /*Deliver Section*/
