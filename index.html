@@ -16,8 +16,9 @@
 <!--Overview styling-->
     <style>
       body {
-        background-image: url('images/diamondDeco2.png');
+        background-image: url('images/labyrinth.png');
         background-attachment: fixed;
+        background-size: contain;
       }
 
     </style>
@@ -91,16 +92,12 @@
   <div class="container">
     <h1><img src="images/TrainingK.png" style="width:50px;height:50px">   Intro</h1>
 
-    <div class="row failures">
-      <div class="col-lg-6" >
-        <h6>Current</h6>
-        <img src="images/homeCurrent.png"></div>
-      <div class="col-lg-6" >
-        <h6>Prototype</h6>
-        <img src="images/USDOL.png"></div>
-      
-    </div>
     <div class="row">
+      <div class="col">
+      <img src="images/workForce.png">
+      </div>
+    </div>
+    <div class="row failures">
       <div class="col-lg-5 overview">
         <h4>Overview</h4>
         <p>Visitors to federal websites simply want to obtain specific information and services quickly and easily. What they frequently encounter instead are numerous labyrinths of link farms and cumbersome navigation, due to inefficient information architecture (IA). Further hindrances involve security, speed, mobile friendliness, and accessibility; 92 percent of the most popular federal websites fail to meet usability benchmarks, according to an <a href="https://itif.org/publications/2017/03/08/92-percent-most-popular-federal-government-websites-fail-meet-basic/" target="_blank">Information Technology and Innovation Foundation (ITIF) 2017 report</a>. Of the 297 most popular federal websites reviewed, the Department of Labor (DOL) ranked 180 with an overall score of 70.4. Years after the report’s publication, the user experience at the DOL website has not improved …
@@ -110,7 +107,7 @@
         <div class="row">
           <div class="col-8">
             <h4>About DOL</h4>
-            <p>The United States Department of Labor's mission is <i>to foster, promote, and develop the welfare of the wage earners, job seekers, and retirees of the United States; improve working conditions; advance opportunities for profitable employment; and assure work-related benefits and rights</i>. The Department of Labor (DOL) administers and enforces more than 180 federal laws and thousands of federal regulations; they cover many workplace activities for about 13 million employers and 160 million workers. There are more than two dozen offices and agencies within the DOL, all of them led by the Secretary of Labor, who reports to the President and is a member of the Cabinet.</p>
+            <p>The United States Department of Labor's mission is <i>to foster, promote, and develop the welfare of the American workforce and retirees; improve working conditions; advance opportunities for profitable employment; and assure work-related benefits and rights</i>. The DOL administers and enforces more than 180 federal laws and thousands of federal regulations; they cover many workplace activities for about 13 million employers and 160 million workers. There are more than two dozen offices and agencies within the DOL, all of them led by the Secretary of Labor, who reports to the President and is a member of the Cabinet.</p>
           </div> 
           <div class="col-4 dolInfo">
             <img src="images/logoUSDOL.png" style="max-width: 150px;">
@@ -148,16 +145,7 @@
       </div>
     </div>
     <div class="row usability">
-      <div class="col-lg-4 wwud">
-        <img src="https://media3.giphy.com/media/3o6ozD4FXYQNv5ERjy/200.gif?cid=5a38a5a2rx2dlo8nrm2m9bs0dijymsqosqi0onpodw6lgakx&amp;rid=200.gif&amp;ct=g" style="border:0px;height:184px;width:350px;margin-bottom:2.6% !important;padding: 0px !important;"/>
-        <h4>What users do at DOL</h4>
-        <p> At the DOL website, the queries may typically involve unemployment insurance, workplace safety, or future probability for certain occupations. For the website usability tests, I defined three activities that will gauge how quickly participants complete each task and reveal challenges they may encounter during their searches: <br>
-          <ul><li>Find the OSHA page to file a workplace violation complaint form.</li>
-          <li>Locate the COBRA form to receive health insurance during unemployment.</li>
-          <li>Find out which jobs will be in demand in five-ten years for career-planning before graduating high school or college.</li></ul>
-          </p>
-      </div>
-      <div class="col-lg-8">
+       <div class="col-lg-8">
         <div class="row cardgroup">
         <div class="col-md-6 card-group">
           <div class="card phillip">
@@ -192,25 +180,27 @@
           </div>
         </div>
         </div>
-        <div class="row">
-      <div class="col">
+      </div>
+      <div class="col-lg-4 wwud">
         <h4>Usability Tests</h4>
-         <p>
-          Participants quickly encountered the challenges annotated in the heuristic evaluations. Each task averaged more than four minutes for three participants to complete; the fourth partaker quit his search in frustration. Additionally, the average number of steps for participants to complete their tasks is no fewer than six, indicating an unwieldy navigation system. 
-         </p>
-      </div> 
-        </div>
+        <p>I defined three activities that will gauge how quickly participants complete each task and reveal the challenges they may encounter: <br>
+          <ul><li>Find the OSHA page to file a workplace violation complaint form.</li>
+          <li>Locate the COBRA form to receive health insurance during unemployment.</li>
+          <li>Find out which jobs will be in demand in five-ten years for career-planning before graduating high school or college.</li></ul>
+          Each task averaged more than four minutes for three participants to complete; the fourth partaker quit his search in frustration. Additionally, the average number of steps for participants to complete their tasks is no fewer than six. 
+          </p>
       </div>
     </div>
     <div class="row affinity">
-      <div class="col-lg-8">
+      <div class="col-lg-6">
         <img src="images/stckyNotes1.png">
         <img src="images/stckyNotes2.png">
       </div>
-      <div class="col-lg-4">
-        <h4>Affinity Diagram</h4>
+      <div class="col-lg-6">
+        <h4>Affinity Diagram and User Paths</h4>
          <p>
-          User interviews and usability tests conducted by other team members further confirmed visitors’ frustration with navigating the DOL website. Our collaboration on the affinity diagram revealed that users' challenges began on the homepage, specifically at the outset of their tasks as they scanned the navbar for directions.<br><div><img src="https://media1.giphy.com/media/XBpUGMmoGM4DVHoRMZ/200.gif?cid=5a38a5a23crybaf0uub2cfdtouiv8rzf63qwbeunrqwpxzuh&amp;rid=200.gif&amp;ct=g" style="border:0;height:168px;width:300px"/><br/></div>
+          The group's collaboration on the affinity diagram affirmed users' difficulty finding specific content on the website. Indeed, <a href="https://docs.google.com/spreadsheets/d/1ByJ1dQo3xwK8Du3LRCtaMqJ4r7wRA2Ul2limuAOmE8U/edit?usp=sharing">documented user paths</a> illustrate our participants' labyrinthian navigation.
+          <br><div><img src="https://media1.giphy.com/media/XBpUGMmoGM4DVHoRMZ/200.gif?cid=5a38a5a23crybaf0uub2cfdtouiv8rzf63qwbeunrqwpxzuh&amp;rid=200.gif&amp;ct=g" style="border:0;height:168px;width:300px"/></div>
          </p>
       </div>
     </div>
