@@ -2,7 +2,7 @@
 html {scroll-behavior: smooth;}
 body {margin: 0 auto; width: 100%; font-family: 'Roboto'; font-size: 1rem; color: #33393b; background-color: #f1f0e2;}
 .container {width: 100%; margin: 0 auto; padding-top: 4.6%;}
-h1 {font-family: 'Roboto Slab'; color: #33393b; font-size: 3rem; font-weight: 400; margin-bottom: 6%;padding-top: 3%;} 
+h1 {font-family: 'Roboto Slab'; color: #33393b; font-size: 3rem; font-weight: 400; margin-bottom: 5%;padding-top: 3%;} 
 h2 {font-family: 'Roboto Slab'; color: #33393b; font-size: 2.5rem;}
 a {text-decoration: none !important;}
 a {text-decoration: none;}
