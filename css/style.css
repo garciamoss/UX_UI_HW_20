@@ -39,7 +39,9 @@ iframe {margin-bottom: .55rem; width: 100%;}
 /* Intro Section */
 .failures {margin-top: 3%;}
 
-/*Challenge section/
+/* Challenge section */
+#challenges .right {text-align: right !important;}
+
 
 
 /*Discover Section*/
@@ -79,12 +81,14 @@ iframe {margin-bottom: .55rem; width: 100%;}
         .noIcons {display: none !important;}
         .jtbd {margin-bottom: 5% !important;}
         .card {display: none !important;}
+        #challenges .right {text-align: center !important;}
     }
     
         /*Small devices (landscape phones, 576px and up*/
     @media (min-width: 576px) and (max-width: 767.98px) {
         .noIcons {display: none !important;}
         .jtbd {margin-bottom: 5% !important;}
+        #challenges .right {text-align: center !important;}
     }
     
         /*Medium devices (tablets, 768px and up)*/
