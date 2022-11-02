@@ -47,13 +47,10 @@ iframe {margin-bottom: .55rem; width: 100%;}
 /*Discover Section*/
 .methodology img{border: #33393b solid 1px;}
 .heuristics2 img {margin-bottom: 4.8% !important;}
-.card-img-top {padding: 5%;}
-.card-title {margin-top: -10%;}
 .text-muted {color: #f1f0e2 !important;}
-.phillip, .taki {background-color: #555; color: #f1f0e2; text-align: center;}
-.ellenSue, .jada {background-color: #888888; color: #f1f0e2; text-align: center;}
 #discover .row {margin-bottom: 4%;}
-.row .card-group {margin-bottom: -1.3%;}
+.usability img {border: #33393b solid 1px;}
+
 
 /*Define Section*/
 #define .display-4 {margin-top: 3%; padding-top: 0%;}
@@ -79,8 +76,6 @@ iframe {margin-bottom: .55rem; width: 100%;}
         hr {width: 95%;}
         .giphy-embed {width: 440px !important; height: 220px !important;}
         .noIcons {display: none !important;}
-        .jtbd {margin-bottom: 5% !important;}
-        .card {display: none !important;}
         #challenges .right {text-align: center !important;}
     }
     
