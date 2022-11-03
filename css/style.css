@@ -96,7 +96,10 @@ iframe {margin-bottom: .55rem; width: 100%;}
     @media (min-width: 992px) and (max-width: 1199.98px) {
         .giphy-embed {width: 480px !important; height: 240px !important; padding-right: 12px !important;}
         .filler {display: none;}
+        .heuristics p{border-bottom: 0px !important;}
     }
     
         /*Extra large devices (large desktops, 1200px and up)*/
-    @media (min-width: 1200px) {}
+    @media (min-width: 1200px) {
+        .heuristics p{border-bottom: 0px !important; padding-bottom: 2%;}
+    }
