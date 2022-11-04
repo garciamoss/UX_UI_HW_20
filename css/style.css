@@ -53,9 +53,9 @@ iframe {margin-bottom: .55rem; width: 100%;}
 
 
 /*Define Section*/
-#define .display-4 {margin-top: 3%; padding-top: 0%;}
+#define .display-4 {}
 .definition {background-image: url("../images/detour.png") !important; background-size: cover !important; min-height: 500px; background-position: center; text-align: center; color: #f1f0e2;}
-.definition .container {border: 1px solid #f1f0e2 !important; border-radius: 2%; max-width: 75%; line-height: 1.5rem !important;}
+.definition .container {border: 1px solid #f1f0e2 !important; border-radius: 2%; max-width: 70%; line-height: 1.5rem !important;}
 
 /*Deliver Section*/
 .iconography .row {padding-bottom: 5.5%;}
