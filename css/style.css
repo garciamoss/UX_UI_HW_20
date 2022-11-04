@@ -39,7 +39,8 @@ iframe {margin-bottom: .55rem; width: 100%;}
 /* Intro Section */
 .failures {margin-top: 3%;}
 
-/* Challenge section */
+/* Interstice section */
+#challenges .right {text-align: right !important;}
 #challenges .right {text-align: right !important;}
 
 
@@ -77,6 +78,7 @@ iframe {margin-bottom: .55rem; width: 100%;}
         .giphy-embed {width: 440px !important; height: 220px !important;}
         .noIcons {display: none !important;}
         #challenges .right {text-align: center !important;}
+        #jacob {text-align: center !important;}
     }
     
         /*Small devices (landscape phones, 576px and up*/
@@ -84,12 +86,15 @@ iframe {margin-bottom: .55rem; width: 100%;}
         .noIcons {display: none !important;}
         .jtbd {margin-bottom: 5% !important;}
         #challenges .right {text-align: center !important;}
+        #jacob {text-align: center !important;}
     }
     
         /*Medium devices (tablets, 768px and up)*/
     @media (min-width: 768px) and (max-width: 991.98px) {
         .noIcons {display: none !important;}
         .jtbd {margin-bottom: 5% !important;}
+        #challenges .right {text-align: center !important;}
+        #jacob {text-align: center !important;}
     }
     
         /*Large devices (desktops, 992px and up)*/
