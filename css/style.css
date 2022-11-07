@@ -31,8 +31,8 @@ iframe {margin-bottom: .55rem; width: 100%;}
 .customNav a {color: #f1f0e2 !important;}
 
 /*Jumbotron*/
-.jumbotron-fluid {padding-top: 5rem; background-image: url("../images/worktools.png")!important; background-size: cover !important; background-position: left !important; text-align: center; color: #f1f0e2; height: 820px;}
-.display-4 {color: #f1f0e2; margin-top: 10%; margin-bottom: 1%; padding-top: 0px;}
+.jumbotron-fluid {background-image: url("../images/worktools.png")!important; background-size: cover !important; background-position: left !important; text-align: center; color: #f1f0e2; height: 820px;}
+.display-4 {color: #f1f0e2; margin-top: 10%; margin-bottom: 1%;}
 .jumbotron .row {padding-top: 2rem;}
 .jumbotron .col-3 {text-align: center; font-size: .875rem; font-weight: lighter; line-height: normal;}
 
@@ -54,9 +54,8 @@ iframe {margin-bottom: .55rem; width: 100%;}
 
 
 /*Define Section*/
-#define .display-4 {}
 .definition {background-image: url("../images/detour.png") !important; background-size: cover !important; min-height: 500px; background-position: center; text-align: center; color: #f1f0e2;}
-.definition .container {border: 1px solid #f1f0e2 !important; border-radius: 2%; max-width: 70%; line-height: 1.5rem !important;}
+.definition .container {max-width: 70%;}
 
 /*Deliver Section*/
 .iconography .row {padding-bottom: 5.5%;}
