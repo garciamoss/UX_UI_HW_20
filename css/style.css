@@ -51,11 +51,15 @@ iframe {margin-bottom: .55rem; width: 100%;}
 .text-muted {color: #f1f0e2 !important;}
 #discover .row {margin-bottom: 4%;}
 .usability img {border: #33393b solid 1px;}
+.protoPersona img {border: #33393b solid 1px;}
 
 
 /*Define Section*/
 .definition {background-image: url("../images/detour.png") !important; background-size: cover !important; min-height: 500px; background-position: center; text-align: center; color: #f1f0e2;}
 .definition .container {max-width: 70%;}
+.lead {text-align: left;}
+.Persona {margin-bottom: 4% !important;}
+.card-img-top {margin-bottom: 0px !important;}
 
 /*Deliver Section*/
 .iconography .row {padding-bottom: 5.5%;}
@@ -78,6 +82,7 @@ iframe {margin-bottom: .55rem; width: 100%;}
         .noIcons {display: none !important;}
         #challenges .right {text-align: center !important;}
         #jacob {text-align: center !important;}
+        .definition .container {max-width: 80%;}
     }
     
         /*Small devices (landscape phones, 576px and up*/
