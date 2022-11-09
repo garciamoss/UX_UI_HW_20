@@ -48,7 +48,6 @@ iframe {margin-bottom: .55rem; width: 100%;}
 /*Discover Section*/
 .methodology img{border: #33393b solid 1px;}
 .heuristics2 img {margin-bottom: 4.8% !important;}
-.text-muted {color: #f1f0e2 !important;}
 #discover .row {margin-bottom: 4%;}
 .usability img {border: #33393b solid 1px;}
 .protoPersona img {border: #33393b solid 1px;}
@@ -61,11 +60,42 @@ iframe {margin-bottom: .55rem; width: 100%;}
 .Persona {margin-bottom: 4% !important;}
 .card-img-top {margin-bottom: 0px !important;}
 
+/* The flip card container */
+.flip-card {width: 242px; height: 200px;border-color: transparent !important; padding: .5rem;}
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {position: relative; width: 100%; height: 100%; text-align: center; transition: transform 0.8s; transform-style: preserve-3d;
+  }
+  .flip-card-inner img {width: 28px;}
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {color: white;transform: rotateY(180deg);
+  }
+
+
 /*Deliver Section*/
 .iconography .row {padding-bottom: 5.5%;}
 
 /*Epilgue Section*/
 #epilogue {padding-bottom: 20%;}
+
 
 /*Footer Section*/
 .fixed-bottom a {font-family: 'Roboto'; font-size: 1em;}
@@ -83,6 +113,7 @@ iframe {margin-bottom: .55rem; width: 100%;}
         #challenges .right {text-align: center !important;}
         #jacob {text-align: center !important;}
         .definition .container {max-width: 80%;}
+        .flip-card {display: none;}
     }
     
         /*Small devices (landscape phones, 576px and up*/
@@ -106,6 +137,7 @@ iframe {margin-bottom: .55rem; width: 100%;}
         .giphy-embed {width: 480px !important; height: 240px !important; padding-right: 12px !important;}
         .filler {display: none;}
         .heuristics p{border-bottom: 0px !important;}
+        .flip-card {width: 203px;}
     }
     
         /*Extra large devices (large desktops, 1200px and up)*/
