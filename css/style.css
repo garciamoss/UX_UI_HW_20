@@ -66,7 +66,7 @@ iframe {margin-bottom: .55rem; width: 100%;}
   /* This container is needed to position the front and back side */
   .flip-card-inner {position: relative; width: 100%; height: 100%; text-align: center; transition: transform 0.8s; transform-style: preserve-3d;
   }
-  .flip-card-inner img {width: 28px;}
+  .flip-card-inner img {width: 28px; margin-bottom: -.25%;}
   /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
@@ -122,6 +122,7 @@ iframe {margin-bottom: .55rem; width: 100%;}
         .jtbd {margin-bottom: 5% !important;}
         #challenges .right {text-align: center !important;}
         #jacob {text-align: center !important;}
+        .flip-card {width: 170px; height: 240px;}
     }
     
         /*Medium devices (tablets, 768px and up)*/
@@ -130,6 +131,7 @@ iframe {margin-bottom: .55rem; width: 100%;}
         .jtbd {margin-bottom: 5% !important;}
         #challenges .right {text-align: center !important;}
         #jacob {text-align: center !important;}
+        .flip-card {width: 229px;}
     }
     
         /*Large devices (desktops, 992px and up)*/
